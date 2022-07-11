@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="menu" unicode="&#xe800;" d="M650 400q22 0 36-15t14-35-15-35-35-15l-600 0q-20 0-35 15t-15 35 14 35 36 15l600 0z m-600 100q-20 0-35 15t-15 35 14 35 36 15l600 0q22 0 36-15t14-35-15-35-35-15l-600 0z m600-300q22 0 36-15t14-35-15-35-35-15l-600 0q-20 0-35 15t-15 35 14 35 36 15l600 0z" horiz-adv-x="700" />
+
+<glyph glyph-name="home" unicode="&#xe801;" d="M888 336q16-16 11-27t-27-11l-84 0 0-310q0-14-1-21t-8-13-23-6l-204 0 0 310-204 0 0-310-194 0q-28 0-35 10t-7 30l0 310-84 0q-22 0-27 11t11 27l400 402q16 16 38 16t38-16z" horiz-adv-x="900" />
+
+<glyph glyph-name="play" unicode="&#xe802;" d="M772 333l-741-412q-13-7-22-2t-9 20v822q0 14 9 20t22-2l741-412q13-7 13-17t-13-17z" horiz-adv-x="785.7" />
+
+<glyph glyph-name="linkedin-circled" unicode="&#xe803;" d="M366 178l-83 0 0 271 83 0 0-271z m-86 347q0 18 13 30t32 13q45 0 45-43 0-41-45-41t-45 41z m298-68q47 0 72-33t25-86l0-160-85 0 0 151q0 60-41 60-21 0-35-14t-13-40l0-157-85 0 0 185q0 70-1 86l73 0 5-36q28 44 85 44z m-109-576q-194 0-331 138t-138 331 138 332 331 137 331-137 138-332-138-331-331-138z m0 834q-151 0-258-107t-107-258 107-258 258-107 258 107 107 258-107 258-258 107z" horiz-adv-x="938" />
+</font>
+</defs>
+</svg>

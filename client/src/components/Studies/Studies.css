@@ -1,0 +1,116 @@
+.studies-container{
+    background-color: white;
+    font-family: "Poppins SemiBold";
+}
+
+.formacion {
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid grey;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.formacion div {
+    padding: 2%;
+    width: 70%;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.formacion h3 {
+    margin-top: 70px;
+    margin-bottom: 10%;
+    text-align: center;
+    color: var(--dark-orange);
+    font-size: 2.5rem;
+}
+
+.formacion p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#form1 {
+    float: left;
+    margin-left: 50px;
+}
+
+#form1 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+#form2 {
+    float: right;
+    margin-right: 70px;
+}
+
+#form2 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+@media screen and (max-width:870px) {
+    #form1 {
+        float: left;
+        margin-left: 15%;
+    }
+    #form2 {
+        float: left;
+        margin-left: 15%;
+    }
+    .formacion h3 {
+        margin-top: 70px;
+        margin-bottom: 10%;
+        text-align: center;
+        color: var(--dark-orange);
+        font-size: 2rem;
+    }
+    
+    .formacion p {
+        text-align: justify;
+        font-size: 1rem;
+    }
+    
+    #form2 img{
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5%;
+    }
+    #form1 img{
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5%;
+    }
+}

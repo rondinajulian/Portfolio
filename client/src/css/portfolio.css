@@ -1,0 +1,53 @@
+.portfolio {
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid grey;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.portfolio h3 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(231, 67, 95);
+    font-size: 2rem;
+}
+
+.portfolio #port1 {
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+}
+
+#port1 img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.portfolio #port2 {
+    float: right;
+    width: 40%;
+    margin-right: 10%
+}
+
+#port2 img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

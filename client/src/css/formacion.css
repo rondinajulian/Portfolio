@@ -1,0 +1,105 @@
+.formacion {
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid grey;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.formacion h3 {
+    margin-top: 70px;
+    margin-bottom: 13%;
+    text-align: center;
+    color: rgb(231, 67, 95);
+    font-size: 2rem;
+}
+
+.formacion #form1 {
+    float: left;
+    border: 1px solid grey;
+    width: 32%;
+    border-radius: 10%;
+    margin-left: 15%;
+   
+}
+
+#form1 img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#form1 h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#form1 p {
+    text-align: center;
+    padding: 8%;
+    font-size: 1rem;
+}
+
+.formacion #form2 {
+    float: left;
+    border: 1px solid grey;
+    width: 32%;
+    border-radius: 10%;
+    margin-left: 6%;
+}
+
+#form2 img {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#form2 h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#form2 p {
+    text-align: center;
+    padding: 8%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width:446px) {
+    #form1 h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #form1 p {
+        text-align: center;
+        padding: 8%;
+        font-size: 0.8rem;
+    }
+
+    #form2 h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #form2 p {
+        text-align: center;
+        padding: 8%;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+  };

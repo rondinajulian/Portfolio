@@ -1,0 +1,99 @@
+.portfolio-container{
+    background-color: white;
+   
+}
+.portfolio {
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid grey;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+
+.portfolio h3 {
+    margin-top: 70px;
+    margin-bottom: 10%;
+    text-align: center;
+    color: var(--dark-orange);
+    font-size: 2.5rem;
+}
+
+.portfolio #port1 {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+#port1 img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+.portfolio #port2 {
+    float: right;
+    width: 50%;
+    margin-right: 10%
+}
+
+#port2 img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+@media screen and (max-width:870px) {
+    #port1 {
+        float: left;
+        margin-left: 15%;
+    }
+    #port2 {
+        float: left;
+        margin-left: 15%;
+    }
+    .portfolio h3 {
+        margin-top: 70px;
+        margin-bottom: 10%;
+        text-align: center;
+        color: var(--dark-orange);
+        font-size: 2rem;
+    }
+    #port2 img {
+        width: 500px;
+        height: 180px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5%;
+    }
+    #port1 img {
+        width: 400px;
+        height: 180px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 5%;
+    }
+
+
+    
+}
